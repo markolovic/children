@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+<?php get_header(); ?>
 
 
 <div class="slide">
@@ -44,4 +44,4 @@
 </div>
 
 
-<?php include('footer.php') ?>
+<?php get_footer(); ?>

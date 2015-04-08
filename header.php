@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 <head>
-	<title>Children Society</title>
+  <meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<title><?php wp_title(); ?></title> 
 		<!-- CSS LINKS -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/reset.css">
     <link media="screen and (min-width: 720px)" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/720_grid.css" rel="stylesheet"></link>
   <link media="screen and (min-width: 986px)" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/986_grid.css" rel="stylesheet"></link>
   <link media="screen and (min-width: 1236px)" href="<?php bloginfo('template_directory'); ?>/css/1236_grid.css" rel="stylesheet"></link>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css">
+  <?php wp_head(); ?>
 </head>
 <body>
 
