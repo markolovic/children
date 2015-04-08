@@ -35,10 +35,30 @@ $page_id = get_queried_object_id('page_id');
 		<div class="row">
 			<div class="slot-6-7-8">
 				<h2>
-					Prep the group for fundraising success!
+          <?php echo get_post_meta($page_id, 'blog_header', true); ?>
 				</h2>
 				<div class="blog">
-					aaa
+          <?php 
+            $args = array(
+              'category_name' => 'test_category'
+            );
+            $category = 'test_category';
+            $list_of_posts = new WP_Query( $args );
+            if ( $list_of_posts->have_posts() ) : 
+              while ( $list_of_posts->have_posts() ) : $list_of_posts->the_post();
+          ?>
+                <h3>
+                  <?php the_title(); ?>
+                </h3>
+                <p>
+                  <?php the_content(); ?>
+                </p>
+          <?php 
+              endwhile;
+            else : 
+              get_template_part( 'content', 'none' );
+            endif;
+          ?>
 				</div>
 			</div>
       <?php get_sidebar(); // Tweets ?>
