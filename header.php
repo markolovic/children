@@ -20,7 +20,7 @@
 		</div>
 		<div class="slot-2-3-4">
 			<h1>
-				Challenge Leader Pack
+				<?php bloginfo( 'name' ); ?>
 			</h1>
 		</div>
 		<div class="slot-5">
