@@ -7,7 +7,7 @@ $page_id = get_queried_object_id('page_id');
 <?php get_header(); ?>
 
 <div class="slide">
-	<img src="<?php bloginfo('template_directory'); ?>/rsc/sad.jpg" alt="">
+  <?php if (function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
 </div>
 <div class="body">
 	<div class="grid">
@@ -56,6 +56,7 @@ $page_id = get_queried_object_id('page_id');
               endwhile;
             else : 
               get_template_part( 'content', 'none' );
+              echo 'No posts yet';
             endif;
           ?>
 				</div>
