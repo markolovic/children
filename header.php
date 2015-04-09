@@ -29,6 +29,4 @@
 	</div>
 </div>
 
-<div class="menu">
-  <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-</div>
+<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
