@@ -30,10 +30,5 @@
 </div>
 
 <div class="menu">
-	<ul>
-	    <li>Home</li>
-	    <li>Promotion</li>
-	    <li>Fundraising + The Charity</li>
-	    <li>Trekking</li>
-	</ul>
+  <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 </div>
