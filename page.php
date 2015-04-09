@@ -39,12 +39,8 @@ $page_id = get_queried_object_id('page_id');
 				</h2>
 				<div class="blog">
           <?php 
-            $args = array(
-              'category_name' => 'test_category'
-            );
-            // TODO Try double quotes
-            $category = 'test_category';
-            $list_of_posts = new WP_Query( $args );
+            $category = $post->post_name; // Slug
+            $list_of_posts = new WP_Query( "category_name={$category}");
             if ( $list_of_posts->have_posts() ) : 
               while ( $list_of_posts->have_posts() ) : $list_of_posts->the_post();
           ?>
