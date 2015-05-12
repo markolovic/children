@@ -11,6 +11,8 @@ $page_id = get_queried_object_id('page_id');
   // Code to display slideshow (plugin)
   // if (function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } 
   ?>
+  <?php $page_id = get_queried_object_id(); ?>
+  <?php echo get_the_post_thumbnail( $page_id ); ?>
 </div>
 <div class="body">
 	<div class="grid">
