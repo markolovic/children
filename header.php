@@ -16,16 +16,17 @@
 <div class="header">
 	<div class="grid">
 		<div class="slot-0-1">
-			<img src="<?php bloginfo('template_directory'); ?>/rsc/logo.png" alt="">
+			<img src="<?php bloginfo('template_directory'); ?>/rsc/logo2.png" alt="">
 		</div>
-		<div class="slot-2-3-4">
+		<div class="slot-2-3-4-5">
+			<div class="row">
+				<a href="https://twitter.com/childrensociety"><img class="sm" src="<?php bloginfo('template_directory'); ?>/rsc/twitter2.svg" alt=""></a>
+				<a href="https://www.facebook.com/groups/379186128899130/?__mref=message_bubble"><img class="sm" src="<?php bloginfo('template_directory'); ?>/rsc/facebook2.svg" alt=""></a>
+			</div>
 			<h1>
-				<?php bloginfo( 'name' ); ?>
+				Challenge Leader Pack
 			</h1>
 		</div>
-		<div class="slot-5">
-
-		</div>	
 	</div>
 </div>
 

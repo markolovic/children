@@ -5,25 +5,22 @@
 				Contact us
 			</h2>
 			<h6>
-				Birmingham City University
+				The Children's Society
 			</h6>
 			<h6>
-				University House
+				Edward Rudolf House
 			</h6>
 			<h6>
-				15 Bartholomew Row
+				69-85 Margery Street
 			</h6>
 			<h6>
-				Birmingham
+				London
 			</h6>
 			<h6>
-				B5 5JU
+				WC1X 0JL
 			</h6>
 			<h6>
-				United Kingdom
-			</h6>
-			<h6>
-				+44 (0)121 331 5000
+				 Tel No. : 020 7841 4400
 			</h6>
 		</div>
 		<div class="slot-2-3">
@@ -38,6 +35,9 @@
 			</h6>
 			<h6>
 				Charity Registration No. 221124
+			</h6>
+			<h6>
+				http://www.childrenssociety.org.uk/
 			</h6>
 		</div>
 	</div>

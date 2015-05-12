@@ -26,9 +26,6 @@ $page_id = get_queried_object_id('page_id');
 					<h3>
             <?php echo get_post_meta($page_id, 'statement', true); ?>
 					</h3>
-					<h4>
-						<a href="">Find out more</a>
-					</h4>	
 				</div>
 			</div>
 		</div>
@@ -45,9 +42,9 @@ $page_id = get_queried_object_id('page_id');
               while ( $list_of_posts->have_posts() ) : $list_of_posts->the_post();
           ?>
 
-                <h3>
+                <h1>
                   <?php the_title(); ?>
-                </h3>
+                </h1>
                 <p>
                   <?php the_content(); ?>
                 </p>
